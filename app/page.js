@@ -8,7 +8,7 @@ const FrontPage = () => {
     <main className={styles['bg-gradient-to-br']}>
       <div className={styles['max-w-5xl']}>
         <h1 className={`${styles['text-4xl']} md:text-6xl ${styles['font-bold']} ${styles['text-white']} ${styles['mb-8']} ${styles['center-heading']}`}>
-          Velkommen til Marcus AI Kurs
+          Velkommen til Kurs
         </h1>
         <div className={`${styles['grid']} ${styles['grid-cols-1']} md:${styles['grid-cols-2']} ${styles['gap-6']}`}>
           <div className={`${styles['bg-white']} ${styles['rounded-lg']} ${styles['shadow-lg']} ${styles['p-6']}`}>
