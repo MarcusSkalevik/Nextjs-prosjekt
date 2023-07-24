@@ -17,9 +17,9 @@ const FrontPage = () => {
               alt="AI Illustration 1"
               className="w-full h-48 object-cover mb-4 rounded-lg"
             />
-            <h2 className={`${styles['text-2xl']} ${styles['font-bold']} ${styles['text-norsk']} ${styles['mb-2']}`}>Kva me tilbyr!</h2>
+            <h2 className={`${styles['text-2xl']} ${styles['font-bold']} ${styles['text-norsk']} ${styles['mb-2']}`}>et accusamus</h2>
             <p className={styles['text-norsk']}>
-              Målet vårt er å hjelpa bedrifter og organisasjonar med å få ei betre forståing av AI-teknologiar, og læra korleis dei kan integrera dei i forretningsprosessane og strategiane sine. Me tilbyr skreddarsydde opplæringsprogram og workshops som passar til ulike organisasjonsbehov og kunnskapsnivå. Me tilbyr også rådgivingstenester som hjelper bedrifter med å identifisera og implementera AI-løysingar som kan forbetra effektiviteten og produktiviteten i organisasjonen. Dette kan inkludera alt frå å utvikla AI-baserte verktøy og system til å integrera eksisterande AI-teknologiar for å optimalisera arbeidsflyten.
+            ero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic
             </p>
           </div>
           <div className={`${styles['bg-white']} ${styles['rounded-lg']} ${styles['shadow-lg']} ${styles['p-6']}`}>
@@ -28,9 +28,9 @@ const FrontPage = () => {
               alt="AI Illustration 2"
               className="w-full h-48 object-cover mb-4 rounded-lg"
             />
-            <h2 className={`${styles['text-2xl']} ${styles['font-bold']} ${styles['text-norsk']} ${styles['mb-2']}`}>Vår visjon</h2>
+            <h2 className={`${styles['text-2xl']} ${styles['font-bold']} ${styles['text-norsk']} ${styles['mb-2']}`}>et accusamus</h2>
             <p className={styles['text-norsk']}>
-              Me fokuserer på å tilby høgkvalitets opplæring og tenester, og teamet vårt vil bestå av erfarne AI-ekspertar og lærarar som er dedikerte til å gi kundane våre den beste opplevinga. Visjonen vår er å vera leiande innan AI-opplæring og rådgiving, og hjelpa bedrifter og organisasjonar over heila Norge med å realisera det fulle potensialet til denne banebrytande teknologien.
+            ero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic
             </p>
           </div>
         </div>
