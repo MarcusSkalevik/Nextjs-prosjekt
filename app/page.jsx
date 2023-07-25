@@ -26,7 +26,7 @@ const FrontPage = () => {
             <a href="https://www.google.com" className={styles['no-underline']}>
               <div className={`${styles['bg-white']} ${styles['rounded-lg']} ${styles['shadow-lg']} ${styles['p-6']}`}>
               <img
-                  src="https://cdn0.iconfinder.com/data/icons/tiny-icons-1/100/tiny-03-512.png"
+                  src="https://cdn0.iconfinder.com/data/icons/tiny-icons-1/100/tiny-15-512.png"
                   alt="Photo"
                   className="w-full h-48 object-cover mb-4 rounded-lg"
                 />
