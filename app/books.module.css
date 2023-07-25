@@ -1,20 +1,42 @@
+/* books.module.css */
 .container {
+  background-color: #ff4040;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  padding: 20px; /* Add padding to the container */
 }
 
-.bookList {
+.bookRow {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
+.bookList {
+  width: 95%; /* Increase the width of the bookList container */
+  max-width: 1000px; /* Set a maximum width for the bookList */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ff4040;
+  box-shadow: 7px 10px 7px 7px #bb4141;
+}
+
 .bookItem {
-  margin: 10px;
+  width: 25%; /* Display 4 items per row */
+  box-sizing: border-box;
   text-align: center;
+  margin: 10px; /* Keep the margin to add space between books */
+  padding: 10px; /* Keep the padding to add space between books */
+}
+
+/* Add responsive styles */
+@media (max-width: 768px) {
+  .bookItem {
+    width: 50%; /* Display 2 items per row on smaller screens */
+  }
 }
 
 .bookImage {

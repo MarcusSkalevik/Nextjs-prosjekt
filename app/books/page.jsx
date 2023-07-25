@@ -7,19 +7,54 @@ const books = [
   {
     id: 1,
     title: 'Book 1',
-    image: '/book1.jpg', // Use the correct file name and extension
+    image: '/template-1.png', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
   {
     id: 2,
     title: 'Book 2',
-    image: '/book2.jpg', // Use the correct file name and extension
+    image: '/template-1.png', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
   {
     id: 3,
     title: 'Book 3',
-    image: '/book1.jpg', // Use the correct file name and extension
+    image: '/template-1.png', // Use the correct file name and extension
+    link: 'https://www.google.com/',
+  },
+  {
+    id: 4,
+    title: 'Book 4',
+    image: '/template-1.png', // Use the correct file name and extension
+    link: 'https://www.google.com/',
+  },
+  {
+    id: 5,
+    title: 'Book 5',
+    image: '/template-1.png', // Use the correct file name and extension
+    link: 'https://www.google.com/',
+  },
+  {
+    id: 6,
+    title: 'Book 6',
+    image: '/template-1.png', // Use the correct file name and extension
+    link: 'https://www.google.com/',
+  },{
+    id: 7,
+    title: 'Book 7',
+    image: '/template-1.png', // Use the correct file name and extension
+    link: 'https://www.google.com/',
+  },
+  {
+    id: 8,
+    title: 'Book 8',
+    image: '/template-1.png', // Use the correct file name and extension
+    link: 'https://www.google.com/',
+  },
+  {
+    id: 9,
+    title: 'Book 9',
+    image: '/template-1.png', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
 ];
