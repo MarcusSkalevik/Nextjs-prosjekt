@@ -16,6 +16,10 @@
   cursor: pointer;
   outline: 1px solid black;
   margin: 5px; /* Add margin to create space between the buttons for mobile devices */
+  text-decoration: none; /* Remove the underline from the buttons */
+  color: inherit; /* Use the parent element's color for the text */
+  display: block; /* Change the button to a block element to make it clickable */
+  cursor: pointer; 
 }
 
 /* Additional styles for hover effect if desired */
