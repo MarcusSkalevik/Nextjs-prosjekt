@@ -12,7 +12,7 @@
 
 /* page.module.css */
 .bg-image {
-  background-image: url("/blue-halftone-comic-cartoon-background-free-vector.jpg");
+  background-color: #ff4040;
   background-size: cover;
   background-position: center;
   width: 100vw;
@@ -23,6 +23,7 @@
   background-attachment: fixed;
   z-index: -1;
 }
+
 
 /* Add this new class to center the content inside max-w-5xl */
 .center-content {
@@ -55,7 +56,6 @@
 
 .text-white {
   color: #ffffff;
-  background-color: rgb(0, 0, 0);
 }
 
 .font-bold {
@@ -83,15 +83,15 @@
   align-items: center;
   padding: 2rem;
   border-radius: 8px;
-  background: rgb(59, 59, 61);
-  border: 1px solid rgb(255, 255, 255);
+  background: #e73838;
+  border: 1px solid rgb(0, 0, 0);
   transition: background 200ms, border 200ms;
   color: #ffffff;
 }
 
 .bg-white:hover {
-  background: rgba(78, 79, 84, 0.734);
-  border-color: rgb(255, 255, 255);
+  background: #fa2e2e;
+  border-color: rgb(0, 0, 0);
   transform: translateY(-5px);
 }
 
