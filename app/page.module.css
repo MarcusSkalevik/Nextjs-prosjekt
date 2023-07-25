@@ -6,7 +6,7 @@
   padding: 6rem;
   /* Remove min-height to enable scrolling */
   /* min-height: 100vh; */
-  height: 100%; /* Optionally, set height to 100% */
+  height: 110vh /* Optionally, set height to 100% */
 }
 
 /* page.module.css */
@@ -177,25 +177,7 @@
 @media (max-width: 700px) {
   .bg-gradient-to-br {
     padding: 4rem;
-  }
-
-  .grid {
-    grid-template-columns: 1fr;
-  }
-
-  .bg-white {
-    padding: 1rem;
-  }
-
-  .center {
-    padding: 8rem 0 6rem;
-  }
-
-  
-  .bg-white img {
-    max-height: 12rem;
-  }
-}
+  } }
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
