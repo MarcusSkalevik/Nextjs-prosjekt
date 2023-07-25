@@ -15,7 +15,7 @@
   background-size: cover;
   background-position: center;
   width: 100vw;
-  height: 100vh;
+  height: 200vh;
   /* Remove the following line to enable scrolling */
   /* position: fixed; */
   top: 0;
@@ -176,7 +176,14 @@
 /* Mobile */
 @media (max-width: 700px) {
   .bg-gradient-to-br {
-    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    /* Remove min-height to enable scrolling */
+    /* min-height: 100vh; */
+    height: 120vh /* Optionally, set height to 100% */
   }
 
   .grid {
@@ -198,4 +205,5 @@
   .grid {
     grid-template-columns: 1fr;
   }
+  
 }
