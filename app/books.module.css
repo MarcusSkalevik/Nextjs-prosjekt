@@ -1,5 +1,28 @@
 /* books.module.css */
 
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.navButton {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #c60707a9; /* You can change the color to your preference */
+  border: none;
+  cursor: pointer;
+  outline: 1px solid black;
+  margin: 10px; /* Add margin to create space between the buttons */
+  margin-bottom: 100px;
+}
+
+/* Additional styles for hover effect if desired */
+.navButton:hover {
+  background-color: #c6070749;
+}
+
 
 
 /* CSS */
