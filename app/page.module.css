@@ -183,7 +183,7 @@
     padding: 6rem;
     /* Remove min-height to enable scrolling */
     /* min-height: 100vh; */
-    height: 120vh /* Optionally, set height to 100% */
+    height: 140vh /* Optionally, set height to 100% */
   }
 
   .grid {
