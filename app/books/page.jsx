@@ -7,54 +7,54 @@ const books = [
   {
     id: 1,
     title: 'Bigger & better',
-    image: '/template-1.png', // Use the correct file name and extension
+    image: '/book4.png', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
   {
     id: 2,
     title: 'Bigger & better',
-    image: '/template-1.png', // Use the correct file name and extension
+    image: '/book5.jpg', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
   {
     id: 3,
     title: 'Bigger & better',
-    image: '/template-1.png', // Use the correct file name and extension
+    image: '/book6.jpg', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
   {
     id: 4,
     title: 'Bigger & better',
-    image: '/template-1.png', // Use the correct file name and extension
+    image: '/book4.png', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
   {
     id: 5,
     title: 'Bigger & better',
-    image: '/template-1.png', // Use the correct file name and extension
+    image: '/book5.jpg', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
   {
     id: 6,
     title: 'Bigger & better',
-    image: '/template-1.png', // Use the correct file name and extension
+    image: '/book6.jpg', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },{
     id: 7,
     title: 'Bigger & better',
-    image: '/template-1.png', // Use the correct file name and extension
+    image: '/book4.png', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
   {
     id: 8,
     title: 'Bigger & better',
-    image: '/template-1.png', // Use the correct file name and extension
+    image: '/book5.jpg', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
   {
     id: 9,
     title: 'Bigger & better',
-    image: '/template-1.png', // Use the correct file name and extension
+    image: '/book6.jpg', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
 ];
@@ -62,7 +62,7 @@ const books = [
 const BookList = () => {
   return (
     <div className={styles.container}>
-      <a href="../"><button>Home</button></a>
+      <a href="../"><button className={styles.buttonHome}>Home</button></a>
       <h2>Book List</h2>
       <div className={styles.bookList}>
         {books.map(book => (
