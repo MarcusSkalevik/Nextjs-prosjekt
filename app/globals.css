@@ -100,9 +100,14 @@ a {
   text-decoration: none;
   
 }
+@media (max-width: 768px) {
+  body {
+    color: white; /* Set the text color to black for mobile devices */
+  }
+}
 
 @media (prefers-color-scheme: dark) {
   html {
-    /* color-scheme: dark; */
+    color-scheme: dark;
   }
 } 
