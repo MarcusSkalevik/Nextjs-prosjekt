@@ -67,12 +67,14 @@ const BookList = () => {
       <div className={styles.bookList}>
         {books.map(book => (
           <div key={book.id} className={styles.bookItem}>
-            {/* Use the correct file path to the images */}
-            <img src={book.image} alt={book.title} className={styles.bookImage} />
-            <h3>{book.title}</h3>
-            <Link href={book.link}>
-              <button>Buy Now</button>
-            </Link>
+            <div className={styles.bookContentWrapper}>
+              {/* Use the correct file path to the images */}
+              <img src={book.image} alt={book.title} className={styles.bookImage} />
+              <h3>{book.title}</h3>
+              <Link href={book.link}>
+                <button>Buy Now</button>
+              </Link>
+            </div>
           </div>
         ))}
       </div>

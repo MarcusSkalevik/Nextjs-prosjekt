@@ -15,13 +15,13 @@
 }
 
 .bookList {
-  width: 95%; /* Increase the width of the bookList container */
-  max-width: 1000px; /* Set a maximum width for the bookList */
+  width: 90%; /* Adjust the width of the bookList container */
+  max-width: 800px; /* Set a maximum width for the bookList */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   background-color: #ff4040;
-  box-shadow: 7px 10px 7px 7px #bb4141;
+  box-shadow: 5px 10px 7px 7px #bb4141;
 }
 
 .bookItem {
@@ -31,7 +31,40 @@
   margin: 10px; /* Keep the margin to add space between books */
   padding: 10px; /* Keep the padding to add space between books */
 }
-
+.bookImage {
+  width: 200px; /* Adjust this based on your image size preference */
+  height: 300px; /* Adjust this based on your image size preference */
+  object-fit: cover;
+  border-radius: 8px;
+  
+}
+/* Mobile */
+@media (max-width: 700px) {
+  .bookList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* Reduce the gap between books even further */
+    justify-content: center;
+  }
+  
+  /* Updated styles for book item containers */
+  .bookItem {
+    width: calc(25% - 5px); /* 25% width minus the total gap (gap: 5px) between items in a row */
+    margin-bottom: 10px; /* Optional: Add some space between rows */
+    display: flex; /* Use flexbox to center the image */
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Adjust the image size based on your preference */
+  .bookImage {
+    width: 100%;
+    max-height: 200px; /* Set a maximum height for the image */
+    object-fit: contain; /* Use "contain" to ensure the entire image is visible */
+    border-radius: 8px;
+  }
+  
+}
 /* Add responsive styles */
 @media (max-width: 768px) {
   .bookItem {
@@ -39,9 +72,4 @@
   }
 }
 
-.bookImage {
-  width: 200px; /* Adjust this based on your image size preference */
-  height: 300px; /* Adjust this based on your image size preference */
-  object-fit: cover;
-  border-radius: 8px;
-}
+
