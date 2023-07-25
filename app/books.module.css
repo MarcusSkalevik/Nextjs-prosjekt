@@ -2,20 +2,20 @@
 
 .navBar {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: 20px 0;
 }
 
 .navButton {
-  width: 150px;
-  height: 150px;
+  width: 120px; /* Adjust the button width for mobile devices */
+  height: 120px; /* Adjust the button height for mobile devices */
   border-radius: 50%;
   background-color: #c60707a9; /* You can change the color to your preference */
   border: none;
   cursor: pointer;
   outline: 1px solid black;
-  margin: 10px; /* Add margin to create space between the buttons */
-  margin-bottom: 100px;
+  margin: 5px; /* Add margin to create space between the buttons for mobile devices */
 }
 
 /* Additional styles for hover effect if desired */
@@ -23,6 +23,16 @@
   background-color: #c6070749;
 }
 
+/* Mobile */
+@media (max-width: 480px) {
+  .navButton {
+    width: 65px; /* Adjust the button width for smaller mobile devices */
+    height: 65px; /* Adjust the button height for smaller mobile devices */
+  }
+  .navText {
+    font-size: 15px;
+  }
+}
 
 
 /* CSS */
