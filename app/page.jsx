@@ -36,7 +36,7 @@ const FrontPage = () => {
                 </p> */}
               </div>
             </a>
-            <a href="/your-link-1" className={styles['no-underline']}>
+            <a href="/" className={styles['no-underline']}>
               <div className={`${styles['bg-white']} ${styles['rounded-lg']} ${styles['shadow-lg']} ${styles['p-6']}`}>
                 {/* <img
                   src="https://example.com/your-image-1.png"
@@ -49,7 +49,7 @@ const FrontPage = () => {
                 </p> */}
               </div>
             </a>
-            <a href="/your-link-2" className={styles['no-underline']}>
+            <a href="/" className={styles['no-underline']}>
               <div className={`${styles['bg-white']} ${styles['rounded-lg']} ${styles['shadow-lg']} ${styles['p-6']}`}>
                 {/* <img
                   src=""
