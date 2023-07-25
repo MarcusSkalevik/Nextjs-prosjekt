@@ -1,13 +1,12 @@
-
-/* page.module.css */
-/* main container */
 .bg-gradient-to-br {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
+  /* Remove min-height to enable scrolling */
+  /* min-height: 100vh; */
+  height: 100%; /* Optionally, set height to 100% */
 }
 
 /* page.module.css */
@@ -17,12 +16,14 @@
   background-position: center;
   width: 100vw;
   height: 100vh;
-  position: fixed;
+  /* Remove the following line to enable scrolling */
+  /* position: fixed; */
   top: 0;
   left: 0;
   background-attachment: fixed;
   z-index: -1;
 }
+
 
 
 /* Add this new class to center the content inside max-w-5xl */
@@ -168,7 +169,6 @@
   filter: blur(25px);
   transform: translateZ(0);
 }
-
 
 
 /* Responsive Styles */
