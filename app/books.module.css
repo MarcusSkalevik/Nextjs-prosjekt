@@ -23,6 +23,16 @@
   background-color: #c6070749;
 }
 
+.navBar a {
+  color: inherit; /* Use the parent element's color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Additional styles for hover effect if desired */
+.navBar a:hover {
+  
+}
+
 /* Mobile */
 @media (max-width: 480px) {
   .navButton {
