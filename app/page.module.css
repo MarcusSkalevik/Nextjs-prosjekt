@@ -177,7 +177,21 @@
 @media (max-width: 700px) {
   .bg-gradient-to-br {
     padding: 4rem;
-  } }
+  }
+
+  .grid {
+    grid-template-columns: 1fr; /* Show boxes in a single column on mobile */
+  }
+
+  .bg-white img {
+    max-height: 12rem;
+  }
+  
+  /* Show the h2 title on mobile */
+  .bg-white h2 {
+    font-size: 2rem; /* Increase font size for better visibility on mobile */
+  }
+}
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {

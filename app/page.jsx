@@ -17,10 +17,10 @@ const FrontPage = () => {
                   alt="Photo"
                   className="w-full h-48 object-cover mb-4 rounded-lg"
                 />
-                <h2 className={`${styles['text-2xl']} ${styles['font-bold']} ${styles['text-norsk']} ${styles['mb-2']}`}>Buy Books</h2>
-                <p className={styles['text-norsk']}>
+                <h2 className={`${styles['text-2xl']} ${styles['font-bold']} ${styles['text-norsk']} ${styles['mb-2']}`}>Books</h2>
+                {/* <p className={styles['text-norsk']}>
                   Do you have a book you want to buy? 
-                </p>
+                </p> */}
               </div>
             </a>
             <a href="https://www.google.com" className={styles['no-underline']}>
@@ -31,9 +31,9 @@ const FrontPage = () => {
                   className="w-full h-48 object-cover mb-4 rounded-lg"
                 />
                 <h2 className={`${styles['text-2xl']} ${styles['font-bold']} ${styles['text-norsk']} ${styles['mb-2']}`}>Reserve</h2>
-                <p className={styles['text-norsk']}>
+                {/* <p className={styles['text-norsk']}>
                   book you want to reserve or see a list of your reserved books? 
-                </p>
+                </p> */}
               </div>
             </a>
             <a href="/your-link-1" className={styles['no-underline']}>
@@ -43,10 +43,10 @@ const FrontPage = () => {
                   alt="Photo"
                   className="w-full h-48 object-cover mb-4 rounded-lg"
                 /> */}
-                <h2 className={`${styles['text-2xl']} ${styles['font-bold']} ${styles['text-norsk']} ${styles['mb-2']}`}>About us</h2>
-                <p className={styles['text-norsk']}>
+                <h2 className={`${styles['text-2xl']} ${styles['font-bold']} ${styles['text-norsk']} ${styles['mb-2']}`}>About</h2>
+                {/* <p className={styles['text-norsk']}>
                 most frequent questions
-                </p>
+                </p> */}
               </div>
             </a>
             <a href="/your-link-2" className={styles['no-underline']}>
@@ -57,9 +57,9 @@ const FrontPage = () => {
                   className="w-full h-48 object-cover mb-4 rounded-lg"
                 /> */}
                 <h2 className={`${styles['text-2xl']} ${styles['font-bold']} ${styles['text-norsk']} ${styles['mb-2']}`}>Help</h2>
-                <p className={styles['text-norsk']}>
+                {/* <p className={styles['text-norsk']}>
                   Need help? Contact us!
-                </p>
+                </p> */}
               </div>
             </a>
           </div>
