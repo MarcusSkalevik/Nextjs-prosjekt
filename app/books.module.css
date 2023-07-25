@@ -8,14 +8,14 @@
 }
 
 .navButton {
-  width: 120px; /* Adjust the button width for mobile devices */
-  height: 120px; /* Adjust the button height for mobile devices */
+  width: 150px; /* Adjust the button width for mobile devices */
+  height: 150px; /* Adjust the button height for mobile devices */
   border-radius: 50%;
   background-color: #c60707a9; /* You can change the color to your preference */
   border: none;
   cursor: pointer;
   outline: 1px solid black;
-  margin: 5px; /* Add margin to create space between the buttons for mobile devices */
+  margin: 25px; /* Add margin to create space between the buttons for mobile devices */
   text-decoration: none; /* Remove the underline from the buttons */
   color: inherit; /* Use the parent element's color for the text */
   display: block; /* Change the button to a block element to make it clickable */
@@ -46,6 +46,8 @@
   .navText {
     font-size: 15px;
   }
+
+ 
 }
 
 
@@ -123,8 +125,7 @@
   box-shadow: 1px 1px 1px 1px #010101;
 }
 
-
-
+/* books.module.css */
 
 .container {
   background-color: #ff4040;
@@ -141,48 +142,64 @@
   justify-content: center;
 }
 
+.bookTitle {
+  margin-bottom: 110px;
+  margin-top: 110px;
+  font-size: 55px;
+}
+
 .bookList {
-  width: 90%; /* Adjust the width of the bookList container */
-  max-width: 800px; /* Set a maximum width for the bookList */
+  width: 95%; /* Adjust the width of the bookList container */
+  max-width: 1200px; /* Set a maximum width for the bookList */
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around; /* Center the books with space between them */
   background-color: #ff4040;
   box-shadow: 5px 10px 7px 7px #bb4141;
 }
 
 .bookItem {
-  width: 25%; /* Display 4 items per row */
+  width: calc(23% - 20px); /* Display 4 items per row with margin between items */
   box-sizing: border-box;
   text-align: center;
   margin: 10px; /* Keep the margin to add space between books */
   padding: 10px; /* Keep the padding to add space between books */
 }
+
 .bookImage {
   width: 200px; /* Adjust this based on your image size preference */
   height: 300px; /* Adjust this based on your image size preference */
   object-fit: cover;
   border-radius: 8px;
-  
 }
+
+/* books.module.css */
+
+/* ... Your existing styles ... */
+
 /* Mobile */
 @media (max-width: 700px) {
-  .bookList {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px; /* Reduce the gap between books even further */
+  .navButton {
+    width: 65px; /* Adjust the button width for smaller mobile devices */
+    height: 65px; /* Adjust the button height for smaller mobile devices */
+    margin: 9px; /* Add margin to create space between the buttons for mobile devices */
+  }
+
+  /* Update the flex direction for .navBar to display the buttons side by side */
+  .navBar {
+    flex-direction: row;
     justify-content: center;
   }
-  
+
+  .bookList {
+    width: 90%; /* Adjust the width of the bookList container for mobile */
+  }
+
   /* Updated styles for book item containers */
   .bookItem {
-    width: calc(25% - 5px); /* 25% width minus the total gap (gap: 5px) between items in a row */
-    margin-bottom: 10px; /* Optional: Add some space between rows */
-    display: flex; /* Use flexbox to center the image */
-    flex-direction: column;
-    align-items: center;
+    width: calc(50% - 20px); /* 50% width minus the total gap (gap: 20px) between items in a row */
   }
-  
+
   /* Adjust the image size based on your preference */
   .bookImage {
     width: 100%;
@@ -190,13 +207,11 @@
     object-fit: contain; /* Use "contain" to ensure the entire image is visible */
     border-radius: 8px;
   }
-  
-}
-/* Add responsive styles */
-@media (max-width: 768px) {
-  .bookItem {
-    width: 50%; /* Display 2 items per row on smaller screens */
+
+  .bookTitle {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
   }
 }
-
 

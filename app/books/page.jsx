@@ -10,7 +10,7 @@ const BookList = () => {
     <div className={styles.container}>
       <a href="../"><button className={styles.buttonHome}>Home</button></a>
       <NavBar />
-      <h2>Book List</h2>
+      <h2 className={styles.bookTitle}>Book List</h2>
       <div className={styles.bookList}>
         {listedBooks.map(book => (
           <div key={book.id} className={styles.bookItem}>
