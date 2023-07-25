@@ -7,7 +7,7 @@ const FrontPage = () => {
       <div className={styles['bg-gradient-to-br']}>
         <div className={`${styles['max-w-5xl']} ${styles['center-content']}`}>
           <h1 className={`${styles['text-4xl']} md:text-6xl ${styles['font-bold']} ${styles['text-white']} ${styles['mb-8']} ${styles['center-heading']}`}>
-            BookStore
+            Bookstore
           </h1>
           <div className={`${styles['grid']} ${styles['grid-cols-1']} md:${styles['grid-cols-2']} ${styles['gap-6']}`}>
             <a href="/books" className={styles['no-underline']}>
