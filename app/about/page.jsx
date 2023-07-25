@@ -1,66 +1,42 @@
 import React from 'react';
+import styles from '../books.module.css'; // Import the CSS module
 
 // Sample book data (you can replace it with actual data)
 const books = [
   {
     id: 1,
     title: 'Book 1',
-    image: 'book1.jpg',
+    image: '/book1.jpg', // Use the correct file name and extension
   },
   {
     id: 2,
     title: 'Book 2',
-    image: 'book2.jpg',
+    image: '/book2.jpg', // Use the correct file name and extension
   },
   {
     id: 3,
     title: 'Book 3',
-    image: 'book3.jpg',
+    image: '/book1.jpg', // Use the correct file name and extension
   },
 ];
 
 const BookList = () => {
   return (
-    <div style={styles.container}>
+    <div className={styles.container}>
+      <a href="../"><button>Home</button></a>
       <h2>Book List</h2>
-      <ul style={styles.bookList}>
+      <div className={styles.bookList}>
         {books.map(book => (
-          <li key={book.id} style={styles.bookItem}>
-            <div>
-              <img src={book.image} alt={book.title} style={styles.bookImage} />
-              <h3>{book.title}</h3>
-              <button>Buy Now</button>
-            </div>
-          </li>
+          <div key={book.id} className={styles.bookItem}>
+            {/* Use the correct file path to the images */}
+            <img src={book.image} alt={book.title} className={styles.bookImage} />
+            <h3>{book.title}</h3>
+            <button>Buy Now</button>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
-};
-
-const styles = {
-  container: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    textAlign: 'center',
-    minHeight: '100vh',
-  },
-  bookList: {
-    listStyle: 'none',
-    padding: 0,
-    margin: 0,
-  },
-  bookItem: {
-    marginBottom: '20px',
-  },
-  bookImage: {
-    width: '200px', // Adjust this based on your image size preference
-    height: '300px', // Adjust this based on your image size preference
-    objectFit: 'cover',
-    borderRadius: '8px',
-  },
 };
 
 export default BookList;
