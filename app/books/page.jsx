@@ -6,54 +6,54 @@ import styles from '../books.module.css'; // Import the CSS module
 const books = [
   {
     id: 1,
-    title: 'Book 1',
+    title: 'Bigger & better',
     image: '/template-1.png', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
   {
     id: 2,
-    title: 'Book 2',
+    title: 'Bigger & better',
     image: '/template-1.png', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
   {
     id: 3,
-    title: 'Book 3',
+    title: 'Bigger & better',
     image: '/template-1.png', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
   {
     id: 4,
-    title: 'Book 4',
+    title: 'Bigger & better',
     image: '/template-1.png', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
   {
     id: 5,
-    title: 'Book 5',
+    title: 'Bigger & better',
     image: '/template-1.png', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
   {
     id: 6,
-    title: 'Book 6',
+    title: 'Bigger & better',
     image: '/template-1.png', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },{
     id: 7,
-    title: 'Book 7',
+    title: 'Bigger & better',
     image: '/template-1.png', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
   {
     id: 8,
-    title: 'Book 8',
+    title: 'Bigger & better',
     image: '/template-1.png', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
   {
     id: 9,
-    title: 'Book 9',
+    title: 'Bigger & better',
     image: '/template-1.png', // Use the correct file name and extension
     link: 'https://www.google.com/',
   },
@@ -72,7 +72,7 @@ const BookList = () => {
               <img src={book.image} alt={book.title} className={styles.bookImage} />
               <h3>{book.title}</h3>
               <Link href={book.link}>
-                <button>Buy Now</button>
+                <button className={styles.button}>Buy Now</button>
               </Link>
             </div>
           </div>
