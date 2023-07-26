@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../footer.module.css'; 
 
-const siteFooter = () => {
+const SiteFooter = () => {
 return (
     <footer className={styles.footer}>
     <h2 className={styles.companyName}>Best Bookstore in the World</h2>
@@ -16,4 +16,4 @@ return (
 );
 };
 
-export default siteFooter;
+export default SiteFooter;
