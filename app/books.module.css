@@ -198,8 +198,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 500vh; /*Makes page longer */
+    min-height: 100%; /*Makes page longer */
     padding: 20px; /* Add padding to the container */
+    margin-bottom: 120px;
   }
 }
 
