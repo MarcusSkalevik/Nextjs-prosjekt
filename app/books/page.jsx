@@ -28,7 +28,7 @@ const BookList = () => {
           </div>
         ))}
       </div>
-      <SiteFooter />
+      <siteFooter />
     </div>
     
   );
