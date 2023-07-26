@@ -194,7 +194,7 @@
     display: grid; /* Add this to enable grid layout */
     grid-template-columns: 1fr 1fr; /* Show boxes in two columns on mobile */
     justify-content: center; /* Center the grid items horizontally */
-    gap: 1rem; /* Optionally, add some gap between the grid items */
+    gap: 0.5rem; /* Optionally, add some gap between the grid items */
   }
 
   .grid-item {
@@ -202,7 +202,7 @@
   }
 
   .bg-white img {
-    max-height: 6rem;
+    max-height: 3rem; /* Reduce the image height even more */
   }
   
   /* Show the h2 title on mobile */
@@ -217,3 +217,4 @@
     grid-template-columns: 1fr;
   }
 }
+
