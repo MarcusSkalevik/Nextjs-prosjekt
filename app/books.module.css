@@ -37,6 +37,8 @@
   
 }
 
+
+
 /* Mobile */
 @media (max-width: 480px) {
   .navButton {
@@ -134,7 +136,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 200vh; /*Makes page longer */
   padding: 20px; /* Add padding to the container */
 }
 

@@ -10,7 +10,7 @@ import SiteFooter from '../components/siteFooter';
 const BookList = () => {
   return (
     <div className={styles.container}>
-      <a href="../"><button className={styles.buttonHome}>Home</button></a>
+      <a href="../"><img className={styles.homeButton} src='https://seeklogo.com/images/B/book-store-logo-AA64B3CB13-seeklogo.com.png'></img></a>
       <NavBar />
       <h2 className={styles.bookTitle}>All books!</h2>
       <div className={styles.bookList}>
