@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styles from '../books.module.css'; // Import the CSS module
 import NavBar from '../components/navbar';
 import listedBooks from '../components/bookdata';
-import SiteFooter from '../components/siteFooter';
+import siteFooter from '../components/siteFooter';
 
 
 

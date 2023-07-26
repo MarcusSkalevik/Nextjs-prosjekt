@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './page.module.css';
-import SiteFooter from '../app/components/SiteFooter';
+import siteFooter from '../app/components/siteFooter';
 
 const FrontPage = () => {
   return (
@@ -67,7 +67,7 @@ const FrontPage = () => {
           </div>
         </div>
       </div>
-      <SiteFooter />
+      <siteFooter />
     </main>
   );
 };
