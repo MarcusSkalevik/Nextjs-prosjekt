@@ -191,5 +191,15 @@
     margin-top: 30px;
     font-size: 25px;
   }
+  .container {
+    /* background-color: #ff4040; */
+    background-color: #ff6f61;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 350vh; /*Makes page longer */
+    padding: 20px; /* Add padding to the container */
+  }
 }
 
