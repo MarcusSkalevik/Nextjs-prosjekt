@@ -3,6 +3,8 @@ import Link from 'next/link';
 import styles from '../books.module.css'; // Import the CSS module
 import NavBar from '../components/navbar';
 import listedBooks from '../components/bookdata';
+import SiteFooter from '../components/siteFooter';
+
 
 
 const BookList = () => {
@@ -10,7 +12,7 @@ const BookList = () => {
     <div className={styles.container}>
       <a href="../"><button className={styles.buttonHome}>Home</button></a>
       <NavBar />
-      <h2 className={styles.bookTitle}>Book List</h2>
+      <h2 className={styles.bookTitle}>All books!</h2>
       <div className={styles.bookList}>
         {listedBooks.map(book => (
           <div key={book.id} className={styles.bookItem}>
@@ -26,7 +28,9 @@ const BookList = () => {
           </div>
         ))}
       </div>
+      <SiteFooter />
     </div>
+    
   );
 };
 

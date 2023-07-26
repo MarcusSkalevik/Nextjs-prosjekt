@@ -9,24 +9,24 @@ const NavBar = () => {
     <div className={styles.navBar}>
       <Link href="https://www.google.com/">
         <button className={styles.navButton}>
-          <h2 className={styles.navText}>Bok</h2>
-          <h2 className={styles.navText}>nyheter</h2>
+          <h2 className={styles.navText}>Book</h2>
+          <h2 className={styles.navText}>news</h2>
         </button>
       </Link>
       <Link href="https://www.google.com/">
         <button className={styles.navButton}>
-          <h2 className={styles.navText}>Bok</h2>
-          <h2 className={styles.navText}>tilbud</h2>
+          <h2 className={styles.navText}>Book</h2>
+          <h2 className={styles.navText}>discounts</h2>
         </button>
       </Link>
       <Link href="https://www.google.com/">
         <button className={styles.navButton}>
-          <h2 className={styles.navText}>Toplister</h2>
+          <h2 className={styles.navText}>Toplists</h2>
         </button>
       </Link>
       <Link href="https://www.google.com/">
         <button className={styles.navButton}>
-          <h2 className={styles.navText}>Gavekort</h2>
+          <h2 className={styles.navText}>Gift cards</h2>
         </button>
       </Link>
     </div>
