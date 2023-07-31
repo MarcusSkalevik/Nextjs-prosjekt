@@ -21,7 +21,7 @@ const BookList = () => {
               <img src={book.image} alt={book.title} className={styles.bookImage} />
               <h3>{book.title}</h3>
               <h4>{book.author}</h4>
-              <Link href={book.link}>
+              <Link href={`/books/${book.id}`}>
                 <button className={styles.button}>{book.price},-</button>
               </Link>
             </div>
