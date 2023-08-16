@@ -36,30 +36,14 @@ const FrontPage = () => {
                 </p> */}
               </div>
             </a>
-            <a href="/" className={styles['no-underline']}>
+            <a href="/about" className={styles['no-underline']}>
               <div className={`${styles['bg-white']} ${styles['rounded-lg']} ${styles['shadow-lg']} ${styles['p-6']}`}>
-                {/* <img
-                  src="https://example.com/your-image-1.png"
-                  alt="Photo"
-                  className="w-full h-48 object-cover mb-4 rounded-lg"
-                /> */}
                 <h2 className={`${styles['text-2xl']} ${styles['font-bold']} ${styles['text-norsk']} ${styles['mb-2']}`}>About</h2>
-                {/* <p className={styles['text-norsk']}>
-                most frequent questions
-                </p> */}
               </div>
             </a>
-            <a href="/" className={styles['no-underline']}>
+            <a href="/help" className={styles['no-underline']}>
               <div className={`${styles['bg-white']} ${styles['rounded-lg']} ${styles['shadow-lg']} ${styles['p-6']}`}>
-                {/* <img
-                  src=""
-                  alt="Photo"
-                  className="w-full h-48 object-cover mb-4 rounded-lg"
-                /> */}
                 <h2 className={`${styles['text-2xl']} ${styles['font-bold']} ${styles['text-norsk']} ${styles['mb-2']}`}>Help</h2>
-                {/* <p className={styles['text-norsk']}>
-                  Need help? Contact us!
-                </p> */}
               </div>
             </a>
           </div>
