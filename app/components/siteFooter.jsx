@@ -8,7 +8,7 @@ return (
     <p className={styles.companyInfo}>
         Address: 123 Book Street, Stord, Norway
         <br />
-        Phone: +47 876 65 765
+        Phone: 00 000 00 000
         <br />
         Email: info@bestbookstore.com
     </p>
