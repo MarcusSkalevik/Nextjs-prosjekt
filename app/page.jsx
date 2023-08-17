@@ -18,9 +18,6 @@ const FrontPage = () => {
                   className="w-full h-48 object-cover mb-4 rounded-lg"
                 />
                 <h2 className={`${styles['text-2xl']} ${styles['font-bold']} ${styles['text-norsk']} ${styles['mb-2']}`}>Books</h2>
-                {/* <p className={styles['text-norsk']}>
-                  Do you have a book you want to buy? 
-                </p> */}
               </div>
             </a>
             <a href="https://www.google.com" className={styles['no-underline']}>
@@ -31,9 +28,6 @@ const FrontPage = () => {
                   className="w-full h-48 object-cover mb-4 rounded-lg"
                 />
                 <h2 className={`${styles['text-2xl']} ${styles['font-bold']} ${styles['text-norsk']} ${styles['mb-2']}`}>Reserve</h2>
-                {/* <p className={styles['text-norsk']}>
-                  book you want to reserve or see a list of your reserved books? 
-                </p> */}
               </div>
             </a>
             <a href="/about" className={styles['no-underline']}>

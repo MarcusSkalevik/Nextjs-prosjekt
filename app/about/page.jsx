@@ -1,19 +1,18 @@
 import React from 'react';
 import Link from 'next/link';
-import styles from '../books.module.css'; 
 import NavBar from '../components/navbar';
 import listedBooks from '../components/bookdata';
 import SiteFooter from '../components/siteFooter';
 import Product from '../components/product';
+import styles from '../about.module.css';
 
 const About = () => {
     return (
-    <h1>About</h1>
-
-
-
-
-
+        <div>
+        <h2 className={styles.aboutTitle}>About</h2>
+        <p>dsafodijvpzåsdokcoåpak</p>
+        </div>
+        
     );
 };
 
