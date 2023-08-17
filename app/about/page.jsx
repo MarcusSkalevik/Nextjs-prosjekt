@@ -8,11 +8,11 @@ import styles from '../about.module.css';
 
 const About = () => {
     return (
-        <div>
-        <h2 className={styles.aboutTitle}>About</h2>
-        <p>dsafodijvpzåsdokcoåpak</p>
-        </div>
-        
+        <main className={styles['bg-image']}>
+    <div className={styles['bg-gradient-to-br']}>
+        <h1 className={styles.mainTitle}>About</h1>
+    </div>
+    </main>
     );
 };
 

@@ -1,3 +1,53 @@
-.aboutTitle{
+
+.homeButton{
+    margin-bottom: 100px;
+}
+
+.bg-gradient-to-br {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    /* Remove min-height to enable scrolling */
+    /* min-height: 100vh; */
+    height: 140vh /* Optionally, set height to 100% */
+}
+
+  /* page.module.css */
+.bg-image {
+    /* background-color: #ff4040; */
+    background-color: #ff6f61;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 180vh;
+    /* Remove the following line to enable scrolling */
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.mainTitle{
+    margin-bottom: 1500px;
+    margin-top: 110px;
+    font-size: 55px;
+}
+
+
+  /* Responsive Styles */
+
+  /* Mobile */
+@media (max-width: 700px) {
 
 }
+
+  /* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+    .grid {
+    grid-template-columns: 1fr;
+    }
+}
+
